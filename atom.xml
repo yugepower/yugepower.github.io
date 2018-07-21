@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YUGE&#39;S BLOG</title>
   
-  <subtitle>SO POWERFUL IT IS!</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.yugepower.com/"/>
-  <updated>2018-07-19T05:38:29.953Z</updated>
-  <id>http://www.yugepower.com/</id>
+  <link href="https://www.yugepower.com/"/>
+  <updated>2018-07-21T04:46:47.862Z</updated>
+  <id>https://www.yugepower.com/</id>
   
   <author>
     <name>YUGE</name>
@@ -17,9 +17,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>imgtest</title>
+    <link href="https://www.yugepower.com/imgtest/"/>
+    <id>https://www.yugepower.com/imgtest/</id>
+    <published>2018-07-21T04:40:42.000Z</published>
+    <updated>2018-07-21T04:46:47.862Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="博客启航"><a href="#博客启航" class="headerlink" title="博客启航"></a>博客启航</h1><p>两天前 YUGE’S BLOG 正式启用，昨天对于BLOG的所有的设置几乎已经完成，今天将图片的测试完成后部署就完成了，下面带上一张图。<br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/dcb60a5eba55a1495e43570047b11048.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;博客启航&quot;&gt;&lt;a href=&quot;#博客启航&quot; class=&quot;headerlink&quot; title=&quot;博客启航&quot;&gt;&lt;/a&gt;博客启航&lt;/h1&gt;&lt;p&gt;两天前 YUGE’S BLOG 正式启用，昨天对于BLOG的所有的设置几乎已经完成，今天将图片的测试完成后部署就完成了，下面
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://www.yugepower.com/hello-world/"/>
-    <id>http://www.yugepower.com/hello-world/</id>
+    <link href="https://www.yugepower.com/hello-world/"/>
+    <id>https://www.yugepower.com/hello-world/</id>
     <published>2018-07-19T05:38:29.953Z</published>
     <updated>2018-07-19T05:38:29.953Z</updated>
     
