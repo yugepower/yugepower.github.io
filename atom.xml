@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yugepower.com/"/>
-  <updated>2018-07-27T23:55:08.507Z</updated>
+  <updated>2018-07-28T06:48:09.154Z</updated>
   <id>https://www.yugepower.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客起航</title>
+    <link href="https://www.yugepower.com/start/"/>
+    <id>https://www.yugepower.com/start/</id>
+    <published>2018-07-26T04:00:16.000Z</published>
+    <updated>2018-07-28T06:48:09.154Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="博客起航"><a href="#博客起航" class="headerlink" title="博客起航"></a>博客起航</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>博客搭建过很多很多，我也和其他的人走了相同的道路。<br>首先是查找免费的域名，空间等一切免费的东西。<br>然后发现免费的东西限制太多，控制权不在自己手中，其他人想删就删，于是乎自己买服务器，自己买域名，当然也有很多的学费域名。用建站程序建站。<br>到了现在，发现其实我只需要一个安安静静写文字的场所就好，于是乎，此网站就因此成立。</p><h2 id="这个网站是干什么的？"><a href="#这个网站是干什么的？" class="headerlink" title="这个网站是干什么的？"></a>这个网站是干什么的？</h2><p>这个问题其实是最令人深思的，也是最简单的，网站不知道是干什么的开有什么用。网站不知道干什么的，也肯定开的时间不会太长。</p><p>这个网站是作为YUGE来写的，写的内容是对知识和生活的感知和思考。</p><hr><p>时间：2018-7-28</p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;博客起航&quot;&gt;&lt;a href=&quot;#博客起航&quot; class=&quot;headerlink&quot; title=&quot;博客起航&quot;&gt;&lt;/a&gt;博客起航&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h
+      
+    
+    </summary>
+    
+    
+      <category term="起航" scheme="https://www.yugepower.com/tags/%E8%B5%B7%E8%88%AA/"/>
+    
+  </entry>
   
   <entry>
     <title>imgtest</title>
