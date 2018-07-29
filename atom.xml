@@ -18,8 +18,8 @@
   
   <entry>
     <title>跳转页面</title>
-    <link href="https://www.yugepower.com/gonext/"/>
-    <id>https://www.yugepower.com/gonext/</id>
+    <link href="https://www.yugepower.com/gonext.html"/>
+    <id>https://www.yugepower.com/gonext.html</id>
     <published>2018-07-28T08:21:27.000Z</published>
     <updated>2018-07-28T08:24:31.777Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>网页素材</title>
-    <link href="https://www.yugepower.com/webatom/"/>
-    <id>https://www.yugepower.com/webatom/</id>
+    <link href="https://www.yugepower.com/webatom.html"/>
+    <id>https://www.yugepower.com/webatom.html</id>
     <published>2018-07-28T07:02:57.000Z</published>
     <updated>2018-07-28T08:29:19.356Z</updated>
     
@@ -66,8 +66,8 @@
   
   <entry>
     <title>js网页代码总结</title>
-    <link href="https://www.yugepower.com/js/"/>
-    <id>https://www.yugepower.com/js/</id>
+    <link href="https://www.yugepower.com/js.html"/>
+    <id>https://www.yugepower.com/js.html</id>
     <published>2018-07-28T06:51:32.000Z</published>
     <updated>2018-07-28T07:13:25.911Z</updated>
     
@@ -89,8 +89,8 @@
   
   <entry>
     <title>博客起航</title>
-    <link href="https://www.yugepower.com/start/"/>
-    <id>https://www.yugepower.com/start/</id>
+    <link href="https://www.yugepower.com/start.html"/>
+    <id>https://www.yugepower.com/start.html</id>
     <published>2018-07-26T04:00:16.000Z</published>
     <updated>2018-07-28T06:48:09.154Z</updated>
     
@@ -112,8 +112,8 @@
   
   <entry>
     <title>imgtest</title>
-    <link href="https://www.yugepower.com/imgtest/"/>
-    <id>https://www.yugepower.com/imgtest/</id>
+    <link href="https://www.yugepower.com/imgtest.html"/>
+    <id>https://www.yugepower.com/imgtest.html</id>
     <published>2018-07-21T04:40:42.000Z</published>
     <updated>2018-07-27T23:55:08.507Z</updated>
     
@@ -133,8 +133,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.yugepower.com/hello-world/"/>
-    <id>https://www.yugepower.com/hello-world/</id>
+    <link href="https://www.yugepower.com/hello-world.html"/>
+    <id>https://www.yugepower.com/hello-world.html</id>
     <published>2018-07-19T05:38:29.953Z</published>
     <updated>2018-07-19T05:38:29.953Z</updated>
     
