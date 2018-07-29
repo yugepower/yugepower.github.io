@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /assets/
+
+Sitemap: http://www.yugepower.com/sitemap.xml
+Sitemap: http://www.yugepower.com/baidusitemap.xml
