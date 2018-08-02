@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yugepower.com/"/>
-  <updated>2018-07-28T08:24:31.777Z</updated>
+  <updated>2018-08-02T11:44:24.507Z</updated>
   <id>https://www.yugepower.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始学习docker</title>
+    <link href="https://www.yugepower.com/docker-start.html"/>
+    <id>https://www.yugepower.com/docker-start.html</id>
+    <published>2018-08-02T09:44:36.000Z</published>
+    <updated>2018-08-02T11:44:24.507Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><blockquote><p>今天开始学习docker,记一下笔记</p></blockquote></blockquote><h2 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h2><table><thead><tr><th></th><th>名称</th><th>版本</th></tr></thead><tbody><tr><td>操作系统</td><td>CENTOS</td><td>centos7-1804</td></tr></tbody></table><h3 id="core-version"><a href="#core-version" class="headerlink" title="core version"></a>core version</h3><p>used by uname -a to check it<br>the core version must update to 3.10<br>非常奇怪的是centOS 我下载的最新的内核版本就是3.10 （或许是3.10 当下最稳定吧<br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/20180802175815.png" alt=""></p><h2 id="安装docker"><a href="#安装docker" class="headerlink" title="安装docker"></a>安装docker</h2><h3 id="添加软件源"><a href="#添加软件源" class="headerlink" title="添加软件源"></a>添加软件源</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">sudo tee /etc/yum.repos.d/docker.repo &lt;&lt;- &apos;EOF&apos;  </span><br><span class="line">[dockerrepo]  </span><br><span class="line">name=Docker Repository  </span><br><span class="line">baseurl=https://yum.dockerproject.org/repo/main/centos/$releasever/  </span><br><span class="line">enabled=1  </span><br><span class="line">gpgcheck=1  </span><br><span class="line">gpgkey=https://yum.dockerproject.org/gpg  </span><br><span class="line">EOF</span><br></pre></td></tr></table></figure><h3 id="更新软件源缓存"><a href="#更新软件源缓存" class="headerlink" title="更新软件源缓存"></a>更新软件源缓存</h3><p> sudo yum update<br> sudo yum install -y docker-engine<br> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-yum-add-repo.png" alt=""><br> docker 大小<br> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-size-centos.png" alt=""><br> 看起来蛮小的不是吗<br> 安装成功<br> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/centos-install-success.png" alt="安装成功"></p><h3 id="docker-version-版本检测"><a href="#docker-version-版本检测" class="headerlink" title="docker version 版本检测"></a>docker version 版本检测</h3><p> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-version-centos-2018-08-02.png" alt=""></p><p> ###报错<br> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-version-error.png" alt=""></p><h4 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h4><p>启动docker 服务以管理员方式运行指令<br> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-service-start.png" alt=""></p><h2 id="RUN-hello-world"><a href="#RUN-hello-world" class="headerlink" title="RUN hello-world"></a>RUN hello-world</h2><p> <img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-run-hello-world.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;今天开始学习docker,记一下笔记&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;运行环境&quot;&gt;&lt;a href=&quot;#运行环境&quot; class=&quot;headerlink&quot; title=&quot;运行环境
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://www.yugepower.com/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>跳转页面</title>
