@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yugepower.com/"/>
-  <updated>2018-08-03T01:10:06.636Z</updated>
+  <updated>2018-08-03T03:03:07.426Z</updated>
   <id>https://www.yugepower.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>docker基本命令代码</title>
+    <link href="https://www.yugepower.com/docker-base-command.html"/>
+    <id>https://www.yugepower.com/docker-base-command.html</id>
+    <published>2018-08-03T01:57:30.000Z</published>
+    <updated>2018-08-03T03:03:07.426Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="docker-iamges"><a href="#docker-iamges" class="headerlink" title="docker iamges"></a>docker iamges</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker images</span><br></pre></td></tr></table></figure><p>信息解读<br>|表格名称      |中文译名    | 作用解释        |  备注    |<br>|————-|————|—————-|———-|<br>|REPOSITORY   | 仓库       | 来自于哪个仓库  |           |<br>|TAG         | 标签        | 标签信息       |           |<br>|IMAGE ID    | 镜像ID       |唯一标示镜像   |           |<br>|CREATED     |创建时间       |镜像创建的时间| 标记的是原镜像创建的时间，和自身什么时候下载没关系 |<br>|SIZE       |大小           | 镜像的大小     |          |<br><strong>镜像的ID唯一标示进行</strong><br><strong>镜像大小信息只是表示镜像的逻辑体积大小，实际上由于相同的镜像层本地只会储存一份，物理上占用的存储空间会小于各镜像的逻辑体积之和</strong><br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-images.png" alt=""></p><h2 id="docker-images-other-command"><a href="#docker-images-other-command" class="headerlink" title="docker images other command"></a>docker images other command</h2><p>-a ,–all=ture|false:列出所有的镜像文件（包括临时文件）,默认为否<br>–digests=true|false:列出所有镜像的数字摘要值，默认为否<br>-f,–filter=[]:过滤列出的镜像，如dangling=true 值显示没有被使用的镜像；也可指定带有特定标注的镜像等；<br>–formal=”TEMPLATE”控制输出格式，如.ID代表ID信息，.Repository代表库信息等‘<br>–no-trunc=ture|false:对输出结果中 的太长的部分是否进行截断，such as the ID info ,default set is YES;<br>-q,–quiet=true|false:Only output the ID info ,defaut  set is no;  </p><h2 id="docker-images-NOTE"><a href="#docker-images-NOTE" class="headerlink" title="docker images NOTE"></a>docker images NOTE</h2><p><strong>其中，对输出结果进行控制的选项如-f,–filter=[],–no-trunc=true|false、-q,–quiet=true|false 等，大部分子命令都支持</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;docker-iamges&quot;&gt;&lt;a href=&quot;#docker-iamges&quot; class=&quot;headerlink&quot; title=&quot;docker iamges&quot;&gt;&lt;/a&gt;docker iamges&lt;/h2&gt;&lt;figure class=&quot;highlight plai
+      
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="https://www.yugepower.com/tags/docker/"/>
+    
+      <category term="docker command" scheme="https://www.yugepower.com/tags/docker-command/"/>
+    
+  </entry>
+  
+  <entry>
     <title>docker pull 试用</title>
     <link href="https://www.yugepower.com/docker-pull-test.html"/>
     <id>https://www.yugepower.com/docker-pull-test.html</id>
     <published>2018-08-03T00:17:27.000Z</published>
-    <updated>2018-08-03T01:10:06.636Z</updated>
+    <updated>2018-08-03T02:03:06.284Z</updated>
     
     <content type="html"><![CDATA[<h2 id="pull-image"><a href="#pull-image" class="headerlink" title="pull image"></a>pull image</h2><p>在命令行中输入如下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker pull centos:7</span><br></pre></td></tr></table></figure></p><p><strong> CENTOS 是NAME(镜像名称) : 后面的是版本号 </strong><br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docke-centos-pull.png" alt=""></p><h2 id="docker-run-image"><a href="#docker-run-image" class="headerlink" title="docker run image"></a>docker run image</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run centos:7 bash</span><br></pre></td></tr></table></figure><p>测试代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure></p><p>效果图<br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-run-centos-bash.png" alt=""></p><h2 id="exit-from-the-image"><a href="#exit-from-the-image" class="headerlink" title="exit from the image"></a>exit from the image</h2><p>code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">exit</span><br></pre></td></tr></table></figure></p><p><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-exit-image-centos.png" alt=""></p>]]></content>
     
@@ -97,7 +122,7 @@
     <published>2018-07-28T07:02:57.000Z</published>
     <updated>2018-07-28T08:29:19.356Z</updated>
     
-    <content type="html"><![CDATA[<p>显示网站建站时间<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--显示网站建站的时间 start--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"credit"</span>&gt;</span></span><br><span class="line">٩(๑❛ᴗ❛๑)۶本站已坚持运行了:</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">BirthDay=new Date("05,20,2017");</span></span><br><span class="line"><span class="undefined">today=new Date();</span></span><br><span class="line"><span class="undefined">timeold=(today.getTime()-BirthDay.getTime());</span></span><br><span class="line"><span class="undefined">sectimeold=timeold/1000</span></span><br><span class="line"><span class="undefined">secondsold=Math.floor(sectimeold);</span></span><br><span class="line"><span class="undefined">msPerDay=24*60*60*1000</span></span><br><span class="line"><span class="undefined">e_daysold=timeold/msPerDay</span></span><br><span class="line"><span class="undefined">daysold=Math.floor(e_daysold);</span></span><br><span class="line"><span class="undefined">document.write(daysold+"天 !");</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--显示网站建站的时间 end--&gt;</span></span><br></pre></td></tr></table></figure></p><p>来源: <a href="http://www.hzv5.cn" target="_blank" rel="noopener">http://www.hzv5.cn</a> 的源代码</p>]]></content>
+    <content type="html"><![CDATA[<p>显示网站建站时间<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--显示网站建站的时间 start--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"credit"</span>&gt;</span></span><br><span class="line">٩(๑❛ᴗ❛๑)۶本站已坚持运行了:</span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="javascript">BirthDay=<span class="keyword">new</span> <span class="built_in">Date</span>(<span class="string">"05,20,2017"</span>);</span></span><br><span class="line"><span class="javascript">today=<span class="keyword">new</span> <span class="built_in">Date</span>();</span></span><br><span class="line"><span class="undefined">timeold=(today.getTime()-BirthDay.getTime());</span></span><br><span class="line"><span class="undefined">sectimeold=timeold/1000</span></span><br><span class="line"><span class="javascript">secondsold=<span class="built_in">Math</span>.floor(sectimeold);</span></span><br><span class="line"><span class="undefined">msPerDay=24*60*60*1000</span></span><br><span class="line"><span class="undefined">e_daysold=timeold/msPerDay</span></span><br><span class="line"><span class="javascript">daysold=<span class="built_in">Math</span>.floor(e_daysold);</span></span><br><span class="line"><span class="javascript"><span class="built_in">document</span>.write(daysold+<span class="string">"天 !"</span>);</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--显示网站建站的时间 end--&gt;</span></span><br></pre></td></tr></table></figure></p><p>来源: <a href="http://www.hzv5.cn" target="_blank" rel="noopener">http://www.hzv5.cn</a> 的源代码</p>]]></content>
     
     <summary type="html">
     
