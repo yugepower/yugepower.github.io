@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yugepower.com/"/>
-  <updated>2018-08-03T00:20:00.568Z</updated>
+  <updated>2018-08-03T01:10:06.636Z</updated>
   <id>https://www.yugepower.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>docker pull 测试</title>
+    <title>docker pull 试用</title>
     <link href="https://www.yugepower.com/docker-pull-test.html"/>
     <id>https://www.yugepower.com/docker-pull-test.html</id>
     <published>2018-08-03T00:17:27.000Z</published>
-    <updated>2018-08-03T00:20:00.568Z</updated>
+    <updated>2018-08-03T01:10:06.636Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="pull-image"><a href="#pull-image" class="headerlink" title="pull image"></a>pull image</h2><p>在命令行中输入如下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="pull-image"><a href="#pull-image" class="headerlink" title="pull image"></a>pull image</h2><p>在命令行中输入如下代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker pull centos:7</span><br></pre></td></tr></table></figure></p><p><strong> CENTOS 是NAME(镜像名称) : 后面的是版本号 </strong><br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docke-centos-pull.png" alt=""></p><h2 id="docker-run-image"><a href="#docker-run-image" class="headerlink" title="docker run image"></a>docker run image</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run centos:7 bash</span><br></pre></td></tr></table></figure><p>测试代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls</span><br></pre></td></tr></table></figure></p><p>效果图<br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-run-centos-bash.png" alt=""></p><h2 id="exit-from-the-image"><a href="#exit-from-the-image" class="headerlink" title="exit from the image"></a>exit from the image</h2><p>code<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">exit</span><br></pre></td></tr></table></figure></p><p><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-exit-image-centos.png" alt=""></p>]]></content>
     
     <summary type="html">
     
