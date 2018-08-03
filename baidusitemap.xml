@@ -4,8 +4,25 @@
 
     
   <url>
+    <loc>https://www.yugepower.com/docker-pull-test.html</loc>
+    <lastmod>2018-08-03T00:20:00.568Z</lastmod>
+    <data>
+        <display>
+        <title>docker pull 测试</title>
+        <pubTime>2018-08-03T00:17:27.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.yugepower.com/docker-start.html</loc>
-    <lastmod>2018-08-02T11:44:24.507Z</lastmod>
+    <lastmod>2018-08-02T12:03:20.651Z</lastmod>
     <data>
         <display>
         <title>开始学习docker</title>
