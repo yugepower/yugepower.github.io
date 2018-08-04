@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.yuge.im/"/>
-  <updated>2018-08-04T20:50:23.284Z</updated>
+  <updated>2018-08-04T20:51:15.538Z</updated>
   <id>https://www.yuge.im/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.yuge.im/docker-base-command.html"/>
     <id>https://www.yuge.im/docker-base-command.html</id>
     <published>2018-08-03T01:57:30.000Z</published>
-    <updated>2018-08-04T20:50:23.284Z</updated>
+    <updated>2018-08-04T20:51:15.538Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="docker-iamges"><a href="#docker-iamges" class="headerlink" title="docker iamges"></a>docker iamges</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker images</span><br></pre></td></tr></table></figure><p>信息解读<br>| 表格名称     | 中文译名    | 作用解释        |  备注    |<br>|————|————|—————|———–|<br>|REPOSITORY   | 仓库        | 来自于哪个仓库  |     无      |<br>|TAG          | 标签        | 标签信息        |      无     |<br>|IMAGE ID     | 镜像ID      |唯一标示镜像     |       无    |<br>|CREATED      |创建时间      |镜像创建的时间   | 标记的是原镜像创建的时间，和自身什么时候下载没关系 |<br>|SIZE         |大小          | 镜像的大小     |     无     |<br><strong>镜像的ID唯一标示进行</strong><br><strong>镜像大小信息只是表示镜像的逻辑体积大小，实际上由于相同的镜像层本地只会储存一份，物理上占用的存储空间会小于各镜像的逻辑体积之和</strong><br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-images.png" alt=""></p><h2 id="docker-images-other-command"><a href="#docker-images-other-command" class="headerlink" title="docker images other command"></a>docker images other command</h2><p>-a ,–all=ture|false:列出所有的镜像文件（包括临时文件）,默认为否<br>–digests=true|false:列出所有镜像的数字摘要值，默认为否<br>-f,–filter=[]:过滤列出的镜像，如dangling=true 值显示没有被使用的镜像；也可指定带有特定标注的镜像等；<br>–formal=”TEMPLATE”控制输出格式，如.ID代表ID信息，.Repository代表库信息等‘<br>–no-trunc=ture|false:对输出结果中 的太长的部分是否进行截断，such as the ID info ,default set is YES;<br>-q,–quiet=true|false:Only output the ID info ,defaut  set is no;  </p><h2 id="docker-images-NOTE"><a href="#docker-images-NOTE" class="headerlink" title="docker images NOTE"></a>docker images NOTE</h2><p><strong>其中，对输出结果进行控制的选项如-f,–filter=[],–no-trunc=true|false、-q,–quiet=true|false 等，大部分子命令都支持</strong></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="docker-iamges"><a href="#docker-iamges" class="headerlink" title="docker iamges"></a>docker iamges</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker images</span><br></pre></td></tr></table></figure><p>信息解读<br>| 表格名称     | 中文译名    | 作用解释        |  备注    |<br>|————|————|—————|———–|<br>| REPOSITORY   | 仓库        | 来自于哪个仓库  |     无      |<br>| TAG          | 标签        | 标签信息        |      无     |<br>| IMAGE ID     | 镜像ID      | 唯一标示镜像     |       无    |<br>| CREATED      | 创建时间      | 镜像创建的时间   | 标记的是原镜像创建的时间，和自身什么时候下载没关系 |<br>| SIZE         | 大小          | 镜像的大小     |     无     |<br><strong>镜像的ID唯一标示进行</strong><br><strong>镜像大小信息只是表示镜像的逻辑体积大小，实际上由于相同的镜像层本地只会储存一份，物理上占用的存储空间会小于各镜像的逻辑体积之和</strong><br><img src="https://yugepic-1253731526.cos.ap-beijing.myqcloud.com/docker-images.png" alt=""></p><h2 id="docker-images-other-command"><a href="#docker-images-other-command" class="headerlink" title="docker images other command"></a>docker images other command</h2><p>-a ,–all=ture|false:列出所有的镜像文件（包括临时文件）,默认为否<br>–digests=true|false:列出所有镜像的数字摘要值，默认为否<br>-f,–filter=[]:过滤列出的镜像，如dangling=true 值显示没有被使用的镜像；也可指定带有特定标注的镜像等；<br>–formal=”TEMPLATE”控制输出格式，如.ID代表ID信息，.Repository代表库信息等‘<br>–no-trunc=ture|false:对输出结果中 的太长的部分是否进行截断，such as the ID info ,default set is YES;<br>-q,–quiet=true|false:Only output the ID info ,defaut  set is no;  </p><h2 id="docker-images-NOTE"><a href="#docker-images-NOTE" class="headerlink" title="docker images NOTE"></a>docker images NOTE</h2><p><strong>其中，对输出结果进行控制的选项如-f,–filter=[],–no-trunc=true|false、-q,–quiet=true|false 等，大部分子命令都支持</strong></p>]]></content>
     
     <summary type="html">
     
