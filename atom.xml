@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.yugepower.com/"/>
+  <link href="https://www.yuge.im/"/>
   <updated>2018-08-03T03:05:29.801Z</updated>
-  <id>https://www.yugepower.com/</id>
+  <id>https://www.yuge.im/</id>
   
   <author>
     <name>YUGE</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>docker基础命令代码</title>
-    <link href="https://www.yugepower.com/docker-base-command.html"/>
-    <id>https://www.yugepower.com/docker-base-command.html</id>
+    <link href="https://www.yuge.im/docker-base-command.html"/>
+    <id>https://www.yuge.im/docker-base-command.html</id>
     <published>2018-08-03T01:57:30.000Z</published>
     <updated>2018-08-03T03:05:29.801Z</updated>
     
@@ -35,16 +35,16 @@
     </summary>
     
     
-      <category term="docker" scheme="https://www.yugepower.com/tags/docker/"/>
+      <category term="docker" scheme="https://www.yuge.im/tags/docker/"/>
     
-      <category term="docker command" scheme="https://www.yugepower.com/tags/docker-command/"/>
+      <category term="docker command" scheme="https://www.yuge.im/tags/docker-command/"/>
     
   </entry>
   
   <entry>
     <title>docker pull 试用</title>
-    <link href="https://www.yugepower.com/docker-pull-test.html"/>
-    <id>https://www.yugepower.com/docker-pull-test.html</id>
+    <link href="https://www.yuge.im/docker-pull-test.html"/>
+    <id>https://www.yuge.im/docker-pull-test.html</id>
     <published>2018-08-03T00:17:27.000Z</published>
     <updated>2018-08-03T02:03:06.284Z</updated>
     
@@ -60,14 +60,14 @@
     </summary>
     
     
-      <category term="docker" scheme="https://www.yugepower.com/tags/docker/"/>
+      <category term="docker" scheme="https://www.yuge.im/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>开始学习docker</title>
-    <link href="https://www.yugepower.com/docker-start.html"/>
-    <id>https://www.yugepower.com/docker-start.html</id>
+    <link href="https://www.yuge.im/docker-start.html"/>
+    <id>https://www.yuge.im/docker-start.html</id>
     <published>2018-08-02T09:44:36.000Z</published>
     <updated>2018-08-02T12:03:20.651Z</updated>
     
@@ -88,14 +88,14 @@
     </summary>
     
     
-      <category term="docker" scheme="https://www.yugepower.com/tags/docker/"/>
+      <category term="docker" scheme="https://www.yuge.im/tags/docker/"/>
     
   </entry>
   
   <entry>
     <title>跳转页面</title>
-    <link href="https://www.yugepower.com/gonext.html"/>
-    <id>https://www.yugepower.com/gonext.html</id>
+    <link href="https://www.yuge.im/gonext.html"/>
+    <id>https://www.yuge.im/gonext.html</id>
     <published>2018-07-28T08:21:27.000Z</published>
     <updated>2018-07-28T08:24:31.777Z</updated>
     
@@ -111,14 +111,14 @@
     </summary>
     
     
-      <category term="网页素材" scheme="https://www.yugepower.com/tags/%E7%BD%91%E9%A1%B5%E7%B4%A0%E6%9D%90/"/>
+      <category term="网页素材" scheme="https://www.yuge.im/tags/%E7%BD%91%E9%A1%B5%E7%B4%A0%E6%9D%90/"/>
     
   </entry>
   
   <entry>
     <title>网页素材</title>
-    <link href="https://www.yugepower.com/webatom.html"/>
-    <id>https://www.yugepower.com/webatom.html</id>
+    <link href="https://www.yuge.im/webatom.html"/>
+    <id>https://www.yuge.im/webatom.html</id>
     <published>2018-07-28T07:02:57.000Z</published>
     <updated>2018-07-28T08:29:19.356Z</updated>
     
@@ -134,16 +134,16 @@
     </summary>
     
     
-      <category term="网页素材" scheme="https://www.yugepower.com/tags/%E7%BD%91%E9%A1%B5%E7%B4%A0%E6%9D%90/"/>
+      <category term="网页素材" scheme="https://www.yuge.im/tags/%E7%BD%91%E9%A1%B5%E7%B4%A0%E6%9D%90/"/>
     
-      <category term="素材" scheme="https://www.yugepower.com/tags/%E7%B4%A0%E6%9D%90/"/>
+      <category term="素材" scheme="https://www.yuge.im/tags/%E7%B4%A0%E6%9D%90/"/>
     
   </entry>
   
   <entry>
     <title>js网页代码总结</title>
-    <link href="https://www.yugepower.com/js.html"/>
-    <id>https://www.yugepower.com/js.html</id>
+    <link href="https://www.yuge.im/js.html"/>
+    <id>https://www.yuge.im/js.html</id>
     <published>2018-07-28T06:51:32.000Z</published>
     <updated>2018-07-28T07:13:25.911Z</updated>
     
@@ -159,14 +159,14 @@
     </summary>
     
     
-      <category term="script" scheme="https://www.yugepower.com/tags/script/"/>
+      <category term="script" scheme="https://www.yuge.im/tags/script/"/>
     
   </entry>
   
   <entry>
     <title>博客起航</title>
-    <link href="https://www.yugepower.com/start.html"/>
-    <id>https://www.yugepower.com/start.html</id>
+    <link href="https://www.yuge.im/start.html"/>
+    <id>https://www.yuge.im/start.html</id>
     <published>2018-07-26T04:00:16.000Z</published>
     <updated>2018-07-28T06:48:09.154Z</updated>
     
@@ -182,14 +182,14 @@
     </summary>
     
     
-      <category term="起航" scheme="https://www.yugepower.com/tags/%E8%B5%B7%E8%88%AA/"/>
+      <category term="起航" scheme="https://www.yuge.im/tags/%E8%B5%B7%E8%88%AA/"/>
     
   </entry>
   
   <entry>
     <title>imgtest</title>
-    <link href="https://www.yugepower.com/imgtest.html"/>
-    <id>https://www.yugepower.com/imgtest.html</id>
+    <link href="https://www.yuge.im/imgtest.html"/>
+    <id>https://www.yuge.im/imgtest.html</id>
     <published>2018-07-21T04:40:42.000Z</published>
     <updated>2018-07-27T23:55:08.507Z</updated>
     
@@ -209,8 +209,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.yugepower.com/hello-world.html"/>
-    <id>https://www.yugepower.com/hello-world.html</id>
+    <link href="https://www.yuge.im/hello-world.html"/>
+    <id>https://www.yuge.im/hello-world.html</id>
     <published>2018-07-19T05:38:29.953Z</published>
     <updated>2018-07-19T05:38:29.953Z</updated>
     
